@@ -1,0 +1,6 @@
+nain = str(input())
+nain = nain.replace("-",":)")
+nain = nain.replace(":",":)")
+nain = nain.replace(",",":)")
+nain = nain.replace(".",":)")
+print(nain)
