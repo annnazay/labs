@@ -1,0 +1,9 @@
+nain = str(input())
+if "ing" in nain:
+    nain = nain + "ly"
+    print(nain)
+elif len(nain) >= 3:
+    nain = nain + "ing"
+    print(nain)
+else:
+    print(nain)
